@@ -4,6 +4,8 @@
 
 LINK DEL REPOSITORIO ACTUAL: https://github.com/ivannsilvero/covid-informate
 
+DEMO DE ESTE PROTOTIPO: https://ivannsilvero.github.io/prototipo-bootstrap/
+
 Aplicación que implementa amcharts para recopilar información sobre los casos de coronavirus en el mundo.
 
 ***Elementos utilizados:*** 
