@@ -3,221 +3,243 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta content='width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;' name='viewport' />
     <title>Información - Coronavirus</title>
     <link rel="shortcut icon" href="./assets/imagenes/1.png" />
     <link rel="stylesheet" href="./assets/dist/css/estilos.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    <div class="contenedor">
-        <header>
-            <a href="">
-                <img src="./assets/imagenes/logo.png">
-            </a>
+    class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="./assets/imagenes/logo2.png" style="width: 100%;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="
+                            index.html">
 
-            <nav>
-                <ul>
-                    <li>
-                        <a href="index.html">
-                            <h5>Información</h5>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="adicional.html">
-                            <h5>Estadísticas</h5>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="contactos.html">
-                            <h5>Contacto</h5>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+                        <h5>Información</h5>
+                    </a>
+                </li>
 
-        <div class="img" href="">
-            <div class="introduccion">
-                <p class="titulo">COVID-19</p>
-                <br>
-                <P>Toda la información que podés encontrar para ayudarnos a prevenir.</P>
+
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="adicional.html">
+                        <h5>Estadísticas</h5>
+
+
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="contactos.html">
+                        <h5>Contacto</h5>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+
+    <header class="bg-image">
+        <div class="container d-flex align-items-center flex-column">
+            <div class="row d-flex h-100">
+                <div class="col-sm-6 text-center justify-content-center align-self-center">
+                    <h1 class="tit">
+                        COVID-19
+                    </h1>
+                    <p class="tit"><mark>Toda la información que podés encontrar para ayudarnos a prevenir</mark></p>
+                </div>
             </div>
         </div>
-        <div class="main">
-            <br><br>
-            <button class="accordion">COVID-19</button>
-            <div class="panel" style="display: block">
-                <article id="covid_19">
-                    <br>
-                    <h2 class="inText" id="mc">¿Qué es la COVID-19?</h2>
-                    <br>
-                    <p>
-                        La COVID‑19 es la enfermedad infecciosa causada por el coronavirus que se ha descubierto a principios de enero por científicos chinos. Actualmente la COVID‑19 es una pandemia que afecta a muchos países de todo el mundo.
-                        <br><img src="assets/imagenes/1.png" align="right"><br> Los coronavirus son una gran familia de virus, la mayoría de los cuales son inofensivos para los humanos. Se sabe que cuatro tipos causan resfriados y otros dos tipos pueden
-                        causar infecciones pulmonares graves (SARS y MERS) similares a COVID-19. Los coronavirus llevan su nombre por las puntas en forma de corona que tienen en su superficie.
-                        <br><br> Como todos los virus, necesita células de seres vivos para multiplicarse. Este virus parece apuntar a las células de los pulmones, y posiblemente a otras células del sistema respiratorio también. Las células infectadas
-                        por el virus producirán más partículas de virus, que luego se pueden transmitir a otras personas al toser, por ejemplo.<br><br>
-                    </p>
-                </article>
-            </div>
+    </header>
 
-            <button class="accordion">Contagio</button>
-            <div class="panel">
-                <article id="contagio">
-                    <br>
-                    <h2 class="inText">¿Cómo se contagia?</h2>
-                    <img src="assets/imagenes/2.jpg" width="205" height="455" align="right">
-                    <br>
-                    <p>
-                        Una persona puede contraer la COVID‑19 por contacto con otra que esté infectada por el virus.
-                        <br><br> La enfermedad se propaga principalmente de persona a persona a través de las gotículas que salen despedidas de la nariz o la boca de una persona infectada al toser, estornudar o hablar. Estas gotículas son relativamente
-                        pesadas, no llegan muy lejos y caen rápidamente al suelo.
-                        <br><br> Una persona puede contraer la COVID‑19 si inhala las gotículas procedentes de una persona infectada por el virus. Por eso es importante mantenerse al menos a un metro (3 pies) de distancia de los demás.
-                        <br><br> Estas gotículas pueden caer sobre los objetos y superficies que rodean a la persona, como mesas, pomos y barandillas, de modo que otras personas pueden infectarse si tocan esos objetos o superficies y luego se tocan los
-                        ojos, la nariz o la boca.
-                    </p>
-                </article>
-            </div>
+    <section class="container text-center p-5">
+        <br><br>
+        <button class="accordion">COVID-19</button>
+        <div class="panel" style="display: block">
+            <article id="covid_19"> causar
+                <br>
+                <h2 class="inText" id="mc">¿Qué es la COVID-19?</h2> por
+                <br>
+                <p>
+                    La COVID‑19 es la enfermedad infecciosa causada por el coronavirus que se ha descubierto a principios de enero por científicos chinos. Actualmente la COVID‑19 es una pandemia que afecta a muchos países de todo el mundo.
+                    <br><img src="assets/imagenes/1.png" align="right"><br> Los coronavirus son una gran familia de virus, la mayoría de los cuales son inofensivos para los humanos. Se sabe que cuatro tipos causan resfriados y otros dos tipos pueden causar
+                    infecciones pulmonares graves (SARS y MERS) similares a COVID-19. Los coronavirus llevan su nombre por las puntas en forma de corona que tienen en su superficie.
+                    <br><br> Como todos los virus, necesita células de seres vivos para multiplicarse. Este virus parece apuntar a las células de los pulmones, y posiblemente a otras células del sistema respiratorio también. Las células infectadas por
+                    el virus producirán más partículas de virus, que luego se pueden transmitir a otras personas al toser, por ejemplo.<br><br>
+                </p>
+            </article>
+        </div>
 
-            <button class="accordion">Prevención</button>
-            <div class="panel">
-                <article id="prevencion">
+        <button class="accordion">Contagio</button>
+        <div class="panel">
+            <article id="contagio">
+                <br>e psadas,
+                <h2 clast ">¿Cómo se contagia?</h2>
+            <img src="assets/imagenes/2.jpg " width="205 " height="455 " align="right ">
+            <br>os oj,
+           <p>
+                Una persona puede contraer la COVID‑19 por contacto con otra que esté infectada por el virus.
+                <br><br> La enfermedad se propaga principalmente de persona a persona a través de las gotículas que salen despedidas de la nariz o la boca de una persona infectada al toser, estornudar o hablar. Estas gotículas son relativamente pesadas,
+                no llegan muy lejos y caen rápidamente al suelo.
+                    <br><br> Una persona puede contraer la COVID‑19 si inhala las gotículas procedentes de una persona infectada por el virus. Por eso es importante mantenerse al menos a un metro (3 pies) de distancia de los demás.
+                <br><br> Estas gotículas pueden caer sobre los objetos y superficies que rodean a la persona, como mesas, pomos y barandillas, de modo que otras personas pueden infectarse si tocan esos objetos o superficies y luego se tocan los ojos,
+                la nariz o la boca.
+            </p>
+            </are>
+       </div>
+
+     <button clas="accordion ">Prevención</button>
+     <div class="panl ">
+        <article id="prevencion ">
+            <br>
+                <h2 clasnText">¿Cómo se previene?</h2>
+                <br>
+                <p>
+                    Aunqueodavía no hay vacunas para prevenir la infección, hay algunas medidas que se pueden tomar para reducir el riesgo de infección, que son las precauciones estándar para evitar los virus respiratorios:
                     <br>
-                    <h2 class="inText">¿Cómo se previene?</h2>
-                    <br>
-                    <p>
-                        Aunque todavía no hay vacunas para prevenir la infección, hay algunas medidas que se pueden tomar para reducir el riesgo de infección, que son las precauciones estándar para evitar los virus respiratorios:
-                        <br><img src="assets/imagenes/3.png" width="350" height="400" align="right"><br>
+                    <im src="assets/imagenes/3.png" width="350" height="400" align="right"><br>
                         <ul class="lista">
                             <li>Lavarse las manos con agua y jabón con frecuencia, o usar un desinfectante para manos a base de alcohol</li>
-                            <br>
-                            <li>Cubrirse la boca y la nariz con el codo o un pañuelo descartable al toser o estornudar</li>
-                            <br>
-                            <li>Evitar tocarse los ojos, la nariz y la boca si las manos no están limpias</li>
-                            <br>
-                            <li>Evitar tener contacto con cualquier persona que esté enferma</li>
-                            <br>
-                            <li>Evitar compartir platos, vasos, ropa de cama y otros objetos de la casa si estás enfermo</li>
-                            <br>
-                            <li>Limpiar y desinfectar las superficies que se toquen con frecuencia</li>
-                            <br>
-                            <li>Quedarse en casa y no ir al trabajo, a la escuela, o a lugares públicos si uno está enfermo</li>
-                        </ul>
-                        <br><br> En el caso del coronavirus, la Organización Mundial de la Salud también recomienda:
-                        <br><br>
-                        <ul class="lista">
-                            <li>Evitar comer carne u órganos crudos o poco cocidos</li>
-                            <br>
-                            <li>Evitar el contacto con animales vivos y superficies que puedan haber tocado si se visitan mercados en áreas que recientemente han tenido nuevos casos de coronavirus</li>
-                        </ul>
-                        <br></p>
-                </article>
-            </div>
 
-            <button class="accordion">Síntomas</button>
-            <div class="panel">
-                <br>
-                <article id="sintomas">
-                    <h2 class="inText">¿Cuáles son los síntomas?</h2>
+                            <Cubrirse la boca y la nariz con el codo o un pañuelo descartable al toser o estornudar</li>
+                                < <lEvitar tocarse los ojos, la nariz y la boca si las manos no están limpias</li>
+                                    <b <liEvitar tener contacto con cualquier persona que esté enferma</li>
                     <br>
-                    <p>
-                        La COVID-19 afecta de distintas maneras en función de cada persona. La mayoría de las personas que se contagian presentan síntomas de de intensidad leve o moderada, y se recuperan sin necesidad de hospitalización.
-                        <img src="assets/imagenes/4.png" width="150" height="900" align="right">
-                        <br><br> Los síntomas más habituales son los siguientes:
-                        <br><br>
-                        <ul class="lista">
-                            <li>Tos seca</li>
-                            <br>
-                            <li>Fiebre</li>
-                            <br>
-                            <li>Cansancio</li>
-                        </ul>
-                        <br><br> Otros síntomas menos comunes son:
-                        <br><br>
-                        <ul class="lista">
-                            <li>Molestias y dolores</li>
-                            <br>
-                            <li>Dolor de garganta</li>
-                            <br>
-                            <li>Diarrea</li>
-                            <br>
-                            <li>Conjuntivitis</li>
-                            <br>
-                            <li>Dolor de cabeza</li>
-                            <br>
-                            <li>Pérdida del sentido del olfato o del gusto</li>
-                            <br>
-                            <li>Erupciones cutáneas o pérdida del color en los dedos de las manos o de los pies</li>
-                        </ul>
-                        <br><br> Los síntomas graves son:
-                        <br><br>
-                        <ul class="lista">
-                            <li>Dificultad para respirar o sensación de falta de aire</li>
-                            <br>
-                            <li>Dolor o presión en el pecho</li>
-                            <br>
-                            <li>Incapacidad para hablar o moverse</li>
-                        </ul>
-                        <br><br> Si presentas síntomas graves, busca atención médica inmediata. Sin embargo, siempre debes llamar a tu doctor o centro de atención sanitaria antes de presentarte en el lugar en cuestión.
-                        <br><br> Lo recomendable es que las personas que sufran síntomas leves y tengan un buen estado de salud general se confinen en casa.
-                        <br><br> De media, las personas que se contagian empiezan a presentar síntomas en un plazo de 5 a 6 días desde que se infectan, pero pueden tardar hasta 14.
-                        <br><br><br></p>
-                </article>
-            </div>
-            <button class="accordion">Diagnóstico</button>
-            <div class="panel">
-                <article id="diagnostico">
+                    <li>Evitar compartir platos, vasos, ropa de cama y otros objetos de la casa si estás enfermo</li>
                     <br>
-                    <h2 class="inText">¿Cómo se diagnostica?</h2>
+                    <li>Limpiar y desinfectar las superficies que se toquen con frecuencia</li>
+                      <b
+                      <lQuedarse en casa y no ir al trabajo, a la escuela, o a lugares públicos si uno está enfermo</li>
+                 </ul>
+                 <br<br> En el caso del coronavirus, la Organización Mundial de la Salud también recomienda:
+                <br><br>
+                <ul class="lista">
+                    <li>Evitar comer carne u órganos crudos o poco cocidos</li>
+                        <br>
+                    <li>Evitar el contacto con animales vivos y superficies que puedan haber tocado si se visitan mercados en áreas que recientemente han tenido nuevos casos de coronavirus</li>
+                </ul>
+                <br></p>
+          </ticle>
+     </div>
+
+    <button class="accordion">Síntomas</button>
+        <div class="l">
+           <br>
+          <article i"sintomas">
+              <h2 cls="inText">¿Cuáles son los síntomas?</h2>
+             <br>
+             <p>
+                La COVID-19 afecta de distintas maneras en función de cada persona. La mayoría de las personas que se contagian presentan síntomas de de intensidad leve o moderada, y se recuperan sin necesidad de hospitalización.
+                <img src="assets/imagenes/4.png" width="150" height="900" align="right">
+                    <br> Los síntomas más habituales son los siguientes:
+                   <br><
+                  <uclass="lista">
+                    <li>Tos seca</li>
                     <br>
-                    <p>
-                        Para determinar la presencia de infección por coronavirus los médicos puede tomar una muestra de nariz y garganta (nasofaríngea) o de sangre. Existen distintos tipos de test de diagnóstico de coronavirus.
-                        <br><img src="assets/imagenes/5.jpg" width="800" height="350" align="left"><br> En casos de sospecha de coronavirus se suele realizar una tomografía de tórax para determinar los síntomas de neumonía, así como otros análisis de
-                        coagulación de sangre, un análisis bioquímico y un conteo sanguíneo. También se realizan pruebas de anticuerpos.
-                        <br><br> Asimismo, con el fin de contener la transmisión, se efectúa una evaluación a aquellas personas que presentan los síntomas y que puedan ser proclives a contraer el virus.
-                        <br><br> El control de la temperatura (con cámaras térmicas y termómetros digitales) de las personas que llegan a un aeropuerto procedentes de zonas afectadas ha sido una de las medidas que se han puesto en marcha para detectar
-                        posibles casos del Covid-19, tal y como se hizo con los brotes anteriores. También se realizan cuestionarios a los viajeros; en caso de sospecha, se les somete a evaluación y, en su caso, se les traslada a centros sanitarios.
-                        <br><br> A medida que ha ido evolucionando la pandemia se han incorporado nuevas formas de detección y diagnóstico de la enfermedad.
-                    </p><br>
-                </article>
-            </div>
-            <button class="accordion">Tratamiento</button>
-            <div class="panel">
-                <article id="tratamiento">
+                    <li>Fiebre</li>
                     <br>
-                    <h2 class="inText">¿Cómo es el tratamiento?</h2>
+                        Cansancio</li>
+                   </ul>
+                   <br>< Otros síntomas menos comunes son:
+                  <br><b
+                 <ul clas="lista">
+                    <li>Molestias y dolores</li>
                     <br>
-                    <p>
-                        En el momento no se recomienda ninguna medicación antiviral para tratar la COVID-19. El tratamiento se centra en aliviar los síntomas, y quizás incluya:
-                        <br><br>
-                        <ul class="lista">
-                            <li>Analgésicos (ibuprofeno o acetaminofén)</li>
-                            <br>
-                            <li>Jarabe o medicación para la tos</li>
-                            <br>
-                            <li>Descanso</li>
-                            <br>
-                            <li>Tomar líquidos</li>
-                        </ul>
-                        <br><br> Si tus síntomas son leves, tu médico quizás te recomiende que te recuperes en casa. Tal vez te dé instrucciones especiales para vigilar tus síntomas y para evitar contagiar a otros con la enfermedad. Te puede pedir que
-                        te aísles cuanto sea posible de la familia y de las mascotas mientras estás enfermo, y que uses un dormitorio y un baño diferentes. Muy posiblemente, el doctor te recomendará que te quedes en casa por un período de tiempo, excepto
-                        para recibir atención médica. Probablemente tu médico te hará un seguimiento regular.
-                        <br><br><img src="assets/imagenes/6.jpg" width="400" height="205" align="right"> Si estás muy enfermo, es posible que tengan que hacerte tratamiento en el hospital. En los casos que los médicos lo consideran necesario, se administran
-                        antivirales, dosis altas de esteroides para reducir la inflamación pulmonar y un soporte respiratorio con oxígeno o respiración asistida; en ocasiones puede precisar antibióticos, pero solo en caso de que existan infecciones bacterianas
-                        sobrevenidas, es decir, sobreinfección.<br>
-                </article>
-            </div>
-            <br><br><br>
-            <hr>
+                        Dolor de garganta</li>
+                       <
+                       <Diarrea</li>
+                      <b
+                      <lConjuntivitis</li>
+                    <br>
+                    <li>Dolor de cabeza</li>
+                    <br>
+                    <li>Pérdida del sentido del olfato o del gusto</li>
+                        
+                       <Erupciones cutáneas o pérdida del color en los dedos de las manos o de los pies</li>
+                   </ul>
+                  <br><b Los síntomas graves son:
+                  <br><b
+                    class="lista">
+                    <li>Dificultad para respirar o sensación de falta de aire</li>
+                    <br>
+                    <li>Dolor o presión en el pecho</li>
+                    <br>
+                    <li>Incapacidad para hablar o moverse</li>
+                </ul>
+                <br><br> Si presentas síntomas graves, busca atención médica inmediata. Sin embargo, siempre debes llamar a tu doctor o centro de atención sanitaria antes de presentarte en el lugar en cuestión.
+                <br><br> Lo recomendable es que las personas que sufran síntomas leves y tengan un buen estado de salud general se confinen en casa.
+                <br><br> De media, las personas que se contagian empiezan a presentar síntomas en un plazo de 5 a 6 días desde que se infectan, pero pueden tardar hasta 14.
+                <br><br><br></p>
+            </are>
         </div>
-
-        <footer>
-        </footer>
+        <button s="accordion">Diagnóstico</button>
+        <div class="l">
+            <article"diagnostico"> coagulación
+           <br>
+            <h2 class="inText">¿Cómo se diagnostica?</h2>
+            <br> posibles
+           <p>
+                Para determinar la presencia de infección por coronavirus los médicos puede tomar una muestra de nariz y garganta (nasofaríngea) o de sangre. Existen distintos tipos de test de diagnóstico de coronavirus.
+                <br><img src="assets/imagenes/5.jpg" width="800" height="350" align="left"><br> En casos de sospecha de coronavirus se suele realizar una tomografía de tórax para determinar los síntomas de neumonía, así como otros análisis de coagulación
+                de sangre, un análisis bioquímico y un conteo sanguíneo. También se realizan pruebas de anticuerpos.
+                <br><br> Asimismo, con el fin de contener la transmisión, se efectúa una evaluación a aquellas personas que presentan los síntomas y que puedan ser proclives a contraer el virus.
+                <br><br> El control de la temperatura (con cámaras térmicas y termómetros digitales) de las personas que llegan a un aeropuerto procedentes de zonas afectadas ha sido una de las medidas que se han puesto en marcha para detectar posibles
+                casos del Covid-19, tal y como se hizo con los brotes anteriores. También se realizan cuestionarios a los viajeros; en caso de sospecha, se les somete a evaluación y, en su caso, se les traslada a centros sanitarios.
+                <br><br> A medida que ha ido evolucionando la pandemia se han incorporado nuevas formas de detección y diagnóstico de la enfermedad.
+                <br>
+           </arte>
+      </div>
+      <button cls="accordion">Tratamiento</button>
+     <div class="panl">
+         <article id"tratamiento">
+            <br>
+            <h2 class="inText">¿Cómo es el tratamiento?</h2>
+                <br>
+               <p>
+                  En el mento no se recomienda ninguna medicación antiviral para tratar la COVID-19. El tratamiento se centra en aliviar los síntomas, y quizás incluya:
+                 <br><br
+                 <ul clas="lista">
+                    <li>Analgésicos (ibuprofeno o acetaminofén)</li>
+                    <br>
+                    <li>Jarabe o medicación para la tos</li> te
+                    > para
+                   Descanso</li>
+                    <br>
+                    <li>Tomar líquidos</li>
+                   <>
+                <br><br> Si tus síntomas son leves, tu médico quizás te recomiende que te recuperes en casa. Tal vez te dé instrucciones especiales para vigilar tus síntomas y para evitar contagiar a otros con la enfermedad. Te puede pedir que te
+                aísles cuanto sea posible de la familia y de las mascotas mientras estás enfermo, y que uses un dormitorio y un baño diferentes. Muy posiblemente, el doctor te recomendará que te quedes en casa por un período de tiempo, excepto para
+                recibir atención médica. Probablemente tu médico te hará un seguimiento regular.
+                <br><br><img src="assets/imagenes/6.jpg" width="400" height="205" align="right"> Si estás muy enfermo, es posible que tengan que hacerte tratamiento en el hospital. En los casos que los médicos lo consideran necesario, se administran
+                    antivirales, dosis altas de esteroides para reducir la inflamación pulmonar y un soporte respiratorio con oxígeno o respiración asistida; en ocasiones puede precisar antibióticos, pero solo en caso de que existan infecciones bacterianas
+                        sobrevenidas, es decir, sobreinfección.<br>
+            </article>
     </div>
+            <br><br><br>
+              <hr>
+            </div>
+      </section>
+  
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Sierra Nahuel, Silvero Iván, Sosa Leal Pío - 2020</p>
+        </div>
+    </footer>
     <script src="assets/dist/js/informacion.js"></script>
-    <script src="assets/dist/js/app.js"></script>
 </body>
 
 </html>

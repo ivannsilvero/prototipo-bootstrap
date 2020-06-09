@@ -1,8 +1,10 @@
+### PROTOTIPO CON BOOTSTRAP!! PARA IR AL REPOSITORIO DE LA PÁGINA ORIGINAL, DIRIGIRSE AL PRIMER ENLACE
+
 ## Aplicación con información sobre el coronavirus
 
-Aplicación que implementa amcharts para recopilar información sobre los casos de coronavirus en el mundo.
+LINK DEL REPOSITORIO ACTUAL: https://github.com/ivannsilvero/covid-informate
 
-_DEMO_: https://ivannsilvero.github.io/covid-info/index.html
+Aplicación que implementa amcharts para recopilar información sobre los casos de coronavirus en el mundo.
 
 ***Elementos utilizados:*** 
 - Visual Studio Code
